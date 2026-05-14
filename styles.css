@@ -119,6 +119,7 @@ body::after {
 .eyebrow,
 h1,
 .tagline,
+.walkins-badge,
 .locations,
 .link-stack,
 .site-footer {
@@ -158,6 +159,22 @@ h1 span {
   color: #cfd3e6;
   font-size: clamp(0.98rem, 2.4vw, 1.15rem);
   line-height: 1.62;
+}
+
+.walkins-badge {
+  width: fit-content;
+  margin: 0 auto 1.1rem;
+  padding: 0.72rem 1.05rem;
+  color: #050509;
+  background: linear-gradient(90deg, var(--aqua), #ffffff, var(--purple));
+  border-radius: 999px;
+  box-shadow:
+    0 0 24px rgba(0, 245, 255, 0.28),
+    0 0 30px rgba(143, 56, 255, 0.22);
+  font-size: clamp(0.88rem, 3vw, 1rem);
+  font-weight: 900;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
 }
 
 .locations {
